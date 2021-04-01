@@ -35,6 +35,14 @@ main{
 	font-family: Roboto;
 	src: url(../fonts/Roboto-Regular.ttf);
 }
+@font-face{
+  font-family: Bromod;
+  src: url(../fonts/Bromod.otf);
+}
+@font-face{
+  font-family: Tester;
+  src: url(../fonts/Tester.ttf);
+}
 p {
 	text-align: center;
 }

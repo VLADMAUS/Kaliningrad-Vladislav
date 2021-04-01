@@ -1,3 +1,21 @@
+h1 {
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+}
+p {
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+}
+   .menu {
+    position: fixed; /* Фиксированное положение */
+    left:  10px; /* Расстояние от правого края окна браузера */
+    top: 20%; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #ffe; /* Цвет фона */ 
+    border: 1px solid #333; /* Параметры рамки */ 
+}
 *{
 	padding: 0;
 	margin: 0;
@@ -13,80 +31,6 @@ main{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-   .menu {
-    position: fixed; /* Фиксированное положение */
-    left:  10px; /* Расстояние от правого края окна браузера */
-    top: 20%; /* Расстояние сверху */
-    padding: 10px; /* Поля вокруг текста */ 
-    background: #ffe; /* Цвет фона */ 
-    border: 1px solid #333; /* Параметры рамки */ 
-}
-body{
-
-	background-image: url(../img/e226d5622dbdbf053e84b36428fee109.jpg);
-	background-repeat: space repeat;
-	font-family: Roboto;
-}
-.photo{
-	width: calc(50% - 40px);
-	height: calc((35vw - 40px) / 16 * 9);
-	margin: 10px;
-	background-color: green;
-	background-size: cover;
-	transition: all 0.30s ease;
-	transition-delay: 0.002;
-
-}
-h1 {
-	width: 100%;
-	font-size: 40px;
-	text-align: center;
-}
-.photo1 {
-	background-image: url(../img/img1.jpg);
-}
-.photo2 {
-	background-image: url(../img/img2.jpg);
-}
-.photo3 {
-	background-image: url(../img/img3.jpg);
-}
-.photo4 {
-	background-image: url(../img/img4.jpg);
-}
-.photo5 {
-	background-image: url(../img/img5.jpg);
-}
-.photo6 {
-	background-image: url(../img/img6.jpg);
-}
-.photo7 {
-	background-image: url(../img/img7.jpg);
-}
-.photo8 {
-	background-image: url(../img/img8.jpg);
-}
-.photo9 {
-	background-image: url(../img/img9.jpg);
-}
-.photo10 {
-	background-image: url(../img/img10.jpg);
-}
-.photo12 {
-	background-image: url(../img/img12.jpg);
-}
-.photo13 {
-	background-image: url(../img/img13.jpg);
-}
-.photo14 {
-	background-image: url(../img/img14.jpg);
-}
-.photo15 {
-	background-image: url(../img/img15.jpg);
-}
-.photo11 {
-	background-image: url(../img/img11.jpg);
-}
 @font-face {
 	font-family: Roboto;
 	src: url(../fonts/Roboto-Regular.ttf);
@@ -99,17 +43,22 @@ h1 {
 	font-family: Tester;
 	src: url(../fonts/Tester.ttf);
 }
-.photo:hover{
-	border: 5px solid red;
-	transform: rotate(4.5deg) scale(1);
-}
 p {
 	text-align: center;
 }
 img {
 	width:55px;
 }
-.category-wrap {	
+body{
+
+	background-image: url(../img/e226d5622dbdbf053e84b36428fee109.jpg);
+	font-family: Roboto;
+}
+.img
+.photo1 {
+	background-image: url(../img/img101.jpg);
+}
+.category-wrap {
   position: fixed;
   padding: 15px;
   background: white;
@@ -131,7 +80,7 @@ img {
   background: #80C8A0;
   position: absolute;
   right: 5px;
-  bottom: 2px;
+  bottom: 15px;
   box-shadow: -8px -8px #80C8A0, 0 -8px #80C8A0, -8px 0 #80C8A0;
 }
 .category-wrap ul {
@@ -167,7 +116,7 @@ img {
 .logo h1{ color:#ffffff; font-size:45px; font-weight: normal; padding-top:70px; padding-bottom:40px;}
 h2 {
 	width: 100%;
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 	color: white;
 }
